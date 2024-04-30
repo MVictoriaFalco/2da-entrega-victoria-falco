@@ -1,0 +1,201 @@
+/* BASIC SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #343434;
+}
+
+/* BACKGROUND */
+.v__blue {
+    background-color: #67A3DC;
+}
+
+.v__body {
+    background-color: #EDEBE9;
+}
+
+/* NAVBAR */
+
+.v__nav__container {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.v__nav__container__logotype {
+    width: 100%;
+}
+
+.v__nav__container__logotype__img {
+    width: 20%;
+}
+
+.v__nav__list {
+    flex-grow: 0!important;
+}
+
+/* LINKS */
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.v__info__links {
+    text-decoration: none;
+    text-decoration: none;
+    color: #343434;
+    padding: 16px;
+    border: 0.9px solid #343434;
+    font-size: 8px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.v__info__links:hover {
+    background-color: #343434;
+    color: #EDEBE9;
+    font-weight: 400;
+}
+
+.v__list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.v__links {
+    text-decoration: none;
+    text-decoration: none;
+    color: #343434;
+}
+
+.v__links:hover {
+    text-decoration:underline;
+    font-weight: 500;
+    color: #343434;
+}
+
+/* TEXTOS */
+.v__p {
+    font-size: 12px;
+    margin: 12px 0px 20px 0px;
+}
+
+.v__p-footer {
+    font-size: 10px;
+}
+
+/* TITLES */
+
+.v__h1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform:uppercase;
+    margin-top: 20px;
+}
+
+.v__h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.v__h3 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+/* ABOUT - QUOTE */
+.v__quote {
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.v__about {
+    margin-top: 80px;
+}
+
+/* CARDS */
+
+.v__card {
+    max-width: 540px;
+}
+
+.v__containercards {
+    margin-bottom: 6%;
+}
+
+.v__card__img:hover {
+    opacity: 0.5;
+}
+
+.v__card__info__items {
+    display: grid ;
+    align-items: center;
+}
+
+
+  .v__about__card {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .v__about {
+    justify-content: right;
+  }
+
+ .v__about__studies {
+    justify-content: space-between;
+ }
+
+/* PROYECTO */
+ .v__project__imgs {
+    margin-top: 100px;
+ }
+
+ .v__project__imgs-m40 {
+    margin-top: 40px;
+ }
+
+ .v__project__imgs-final {
+    margin-top: 200px;
+ }
+
+
+.v__p-quote{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* CONTACTO */
+.v__contactcontainer  {
+    justify-content: space-between;
+}
+
+.v__footer { 
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #343434;
+}
+
+.v__footer__logo {
+    width: 100%;
+}
+
+.v__footer__logo__img {
+    width: 8%;
+}
+
+.v__footer__link {
+    text-align: center;
+}
