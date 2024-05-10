@@ -8,12 +8,23 @@
     color: #343434;
 }
 
-/* BACKGROUND */
+html {
+    height: 100%;
+  }
+
+
+/* BODY - BACKGROUND */
 .v__blue {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     background-color: #67A3DC;
 }
 
 .v__body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     background-color: #EDEBE9;
 }
 
@@ -123,6 +134,11 @@ a {
     margin-top: 80px;
 }
 
+.v__about__education {
+    margin-top: 20px;
+    text-align: center;
+}
+
 /* CARDS */
 
 .v__card {
@@ -142,7 +158,6 @@ a {
     align-items: center;
 }
 
-
   .v__about__card {
     text-align: right;
     padding-right: 20px;
@@ -158,30 +173,38 @@ a {
 
 /* PROYECTO */
  .v__project__imgs {
-    margin-top: 100px;
+    margin-top: 120px;
  }
 
  .v__project__imgs-m40 {
     margin-top: 40px;
  }
 
- .v__project__imgs-final {
-    margin-top: 200px;
- }
-
-
 .v__p-quote{
     text-align: center;
     padding: 20px;
     margin-top: 40px;
 }
-
+  
 /* CONTACTO */
+
 .v__contactcontainer  {
     justify-content: space-between;
 }
 
-.v__footer { 
+.v__contact__form {
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top: solid #343434 1px ;
+}
+
+/* FOOTER */
+
+.v__footer {
+    margin-top: auto;
+  } 
+
+.v__footer__section { 
     padding-top: 20px;
     margin-bottom: 20px;
     margin-top: 40px;
