@@ -1,20 +1,20 @@
 /*RESET*/
 
-@import "./reset/reset";
+@import './reset/reset';
 
-@import "./reset/vars";
+@import './reset/vars';
 
-@import "./reset/mixin";
+@import './reset/mixin';
 
-@import "./reset/map";
-
-/*PRINCIPAL*/
-
-@import "principal";
+@import './reset/map';
 
 /* NAVBAR */
 
-@import "header";
+@import 'header';
+
+/*PRINCIPAL*/
+
+@import 'principal';
 
 
 /*LINKS*/
