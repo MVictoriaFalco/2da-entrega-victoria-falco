@@ -1,0 +1,40 @@
+/*RESET*/
+
+@import "./reset/reset";
+
+@import "./reset/vars";
+
+@import "./reset/mixin";
+
+@import "./reset/map";
+
+/*PRINCIPAL*/
+
+@import "principal";
+
+/* NAVBAR */
+
+@import "header";
+
+
+/*LINKS*/
+
+@import 'links';
+
+/*PROYECTO*/
+
+@import 'proyecto';
+
+/*ABOUT*/
+
+@import 'about';
+
+/*CONTACT*/
+
+@import 'contact';
+
+/*FOOTER*/
+
+@import 'footer';
+
+

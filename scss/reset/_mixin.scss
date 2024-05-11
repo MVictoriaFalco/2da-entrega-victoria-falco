@@ -1,0 +1,13 @@
+
+@mixin padding ($pt,$pb) {
+    padding-top: $pt;
+    padding-bottom: $pb;
+}
+
+@mixin margin ($mt,$mb) {
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+
+
+

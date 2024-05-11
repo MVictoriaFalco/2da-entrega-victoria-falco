@@ -1,0 +1,15 @@
+
+
+// NAVBAR
+
+.v {
+    &__nav {
+        &__container {
+        @include margin (20px,40px);
+        }
+
+        &__list {
+            flex-grow: 0;
+        }
+    }
+}

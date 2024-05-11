@@ -1,0 +1,20 @@
+
+// CONTACTO
+
+.v__contact{
+
+    &__container  {
+    justify-content: space-between;
+    }
+
+    &__form {
+    @include margin (20px,none);
+    @include padding (40px,none);
+        border-top: solid $gris 1px ;
+    }
+    
+   &__list{
+    @include margin (20px,20px);
+        align-items: center;
+    }
+}

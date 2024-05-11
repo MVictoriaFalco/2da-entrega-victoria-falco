@@ -1,3 +1,5 @@
+
+
 /* BASIC SETTINGS */
 *{
     margin: 0;
@@ -14,7 +16,7 @@ html {
 
 
 /* BODY - BACKGROUND */
-.v__blue {
+.v__body__blue {
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -33,14 +35,6 @@ html {
 .v__nav__container {
     margin-bottom: 40px;
     margin-top: 20px;
-}
-
-.v__nav__container__logotype {
-    width: 100%;
-}
-
-.v__nav__container__logotype__img {
-    width: 20%;
 }
 
 .v__nav__list {
@@ -70,11 +64,6 @@ a {
     font-weight: 400;
 }
 
-.v__list {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-}
 
 .v__links {
     text-decoration: none;
@@ -92,10 +81,6 @@ a {
 .v__p {
     font-size: 12px;
     margin: 12px 0px 20px 0px;
-}
-
-.v__p-footer {
-    font-size: 10px;
 }
 
 /* TITLES */
@@ -120,25 +105,6 @@ a {
     margin-top: 6px;
 }
 
-/* ABOUT - QUOTE */
-.v__quote {
-    font-size: 20px;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 80px;
-}
-
-.v__about {
-    margin-top: 80px;
-}
-
-.v__about__education {
-    margin-top: 20px;
-    text-align: center;
-}
-
 /* CARDS */
 
 .v__card {
@@ -153,25 +119,39 @@ a {
     opacity: 0.5;
 }
 
-.v__card__info__items {
+.v__card__info {
     display: grid ;
     align-items: center;
 }
 
-  .v__about__card {
+/* ABOUT */
+
+.v__about__quote {
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.v__about__me {
+    margin-top: 80px;
+    justify-content: right;
+}
+
+.v__about__me__education {
+    margin-top: 20px;
+    text-align: center;
+}
+
+  .v__about__me__card {
     text-align: right;
     padding-right: 20px;
   }
 
-  .v__about {
-    justify-content: right;
-  }
 
- .v__about__studies {
-    justify-content: space-between;
- }
-
-/* PROYECTO */
+/* PROYECTO 01 */
  .v__project__imgs {
     margin-top: 120px;
  }
@@ -186,9 +166,10 @@ a {
     margin-top: 40px;
 }
   
+
 /* CONTACTO */
 
-.v__contactcontainer  {
+.v__contact__container  {
     justify-content: space-between;
 }
 
@@ -198,7 +179,13 @@ a {
     border-top: solid #343434 1px ;
 }
 
-/* FOOTER */
+.v__contact__list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* FOOTER*/
 
 .v__footer {
     margin-top: auto;
@@ -211,14 +198,10 @@ a {
     border-top: 1px solid #343434;
 }
 
-.v__footer__logo {
-    width: 100%;
-}
-
-.v__footer__logo__img {
-    width: 8%;
-}
-
 .v__footer__link {
     text-align: center;
 }
+
+.v__footer__p {
+    font-size: 10px;
+} 

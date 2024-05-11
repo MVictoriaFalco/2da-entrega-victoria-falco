@@ -1,0 +1,36 @@
+// LINKS
+
+.v {
+    &__info {
+        &__links{
+        text-decoration: none;
+        text-decoration: none;
+        color: $gris;
+        padding: 16px 32px;
+        border: 0.9px solid $gris;
+        font-size:map-get($text-size,parrafo-secundario);
+        font-weight: 300;
+        text-align: center;
+        }
+
+        &__links:hover {
+            background-color: $gris;
+            color: $blanco;
+            font-weight: 400;
+        }
+    }
+
+    &__links {
+        text-decoration: none;
+        text-decoration: none;
+        color: $gris;
+    }
+    
+    &__links:hover {
+        text-decoration:underline;
+        font-weight: 500;
+        color: $gris;
+    }
+
+
+}

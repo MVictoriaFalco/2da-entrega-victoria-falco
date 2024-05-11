@@ -1,0 +1,43 @@
+// PHOTOGRAPHY CARDS
+
+.v {
+    
+    &__card {
+    max-width: 540px;
+
+    &__img:hover {
+        opacity: 0.5;
+        }
+    
+    &__info {
+        display: grid ;
+        align-items: center;
+        }
+    }
+
+    &__containercards {
+        @include margin (none,6%);
+    }
+}
+
+
+// PROYECTO
+.v {
+    &__project{
+    
+            &__imgs {
+                @include margin (120px,none);
+            }
+
+            &__imgs-m40 {
+                @include margin (40px,none);
+            }
+
+        }
+
+    &__p-quote{
+    text-align: center;
+    padding: 20px;
+    @include margin (20px,none);
+    }
+}

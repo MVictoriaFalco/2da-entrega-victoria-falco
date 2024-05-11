@@ -1,0 +1,53 @@
+
+// BODY - BACKGROUND
+.v  {
+    &__body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color:$background-principal;
+    
+        &__blue {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        background-color: $background-destacado;
+        }
+    }
+    } 
+
+// TITLES
+
+.v {
+    &__h1 {
+    font-family: $tituloprincipal;
+    font-size: map-get($text-size, titulo-primario);
+    text-transform: uppercase;
+    font-weight: 400;
+    @include margin (20px,none);
+    }
+
+    &__h2 {
+    font-family: $titulosecundario;
+    font-size: map-get($text-size, titulo-secundario);
+    font-weight: 500;
+    @include margin (10px,none);
+    }
+
+    &__h3 {
+    font-family: $tituloterciario;
+    font-size: map-get($text-size, titulo-secundario);
+    font-weight: 400;
+    @include margin (6px,6px);
+    }
+    
+    }
+
+// TEXTOS
+.v{ 
+    &__p {
+    font-family:$parrafoprincipal;
+    font-size: map-get($text-size, parrafo-primario);
+    @include margin (12px,20px);
+    }
+}
