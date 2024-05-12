@@ -1,17 +1,191 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 13 | @import 'header';
- *    |         ^^^^^^^^
- *    '
- *   scss/main.scss 13:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 13 \2502  @import 'header';\a    \2502          ^^^^^^^^\a    \2575 \a   scss/main.scss 13:9  root stylesheet";
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #343434;
 }
+
+html {
+  height: 100%;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/*PRINCIPAL*/
+.v__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #EDEBE9;
+}
+.v__body__blue {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #67A3DC;
+}
+
+.v__h1 {
+  font-family: uppercase, "Unbounded", sans-serif, 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: none;
+}
+.v__h2 {
+  font-family: "Unbounded", sans-serif, 500;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: none;
+}
+.v__h3 {
+  font-family: "Unbounded", sans-serif, 500;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.v__p {
+  font-family: "Unbounded", sans-serif;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+/*LINKS*/
+.v__info__links {
+  text-decoration: none;
+  text-decoration: none;
+  color: #343434;
+  padding: 16px 32px;
+  border: 0.9px solid #343434;
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.v__info__links:hover {
+  background-color: #343434;
+  color: #EDEBE9;
+  font-weight: 400;
+}
+.v__links {
+  text-decoration: none;
+  text-decoration: none;
+  color: #343434;
+}
+.v__links:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #343434;
+}
+
+/* NAVBAR */
+.v__nav__container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.v__nav__list {
+  flex-grow: 0;
+}
+
+/*PROYECTO*/
+.v__card {
+  max-width: 540px;
+}
+.v__card__img:hover {
+  opacity: 0.5;
+}
+.v__card__info {
+  display: grid;
+  align-items: center;
+}
+.v__containercards {
+  margin-top: none;
+  margin-bottom: 6%;
+}
+
+.v__project__imgs {
+  margin-top: 120px;
+  margin-bottom: none;
+}
+.v__project__imgs-m40 {
+  margin-top: 40px;
+  margin-bottom: none;
+}
+.v__p-quote {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: none;
+}
+
+/*ABOUT*/
+.v__about__quote {
+  font-family: 40px, uppercase, "Unbounded", sans-serif, 400;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.v__about__me {
+  margin-top: 80px;
+  margin-bottom: none;
+  justify-content: right;
+}
+.v__about__me__card {
+  text-align: right;
+  padding-right: 20px;
+}
+.v__about__me__education {
+  margin-top: 20px;
+  margin-bottom: none;
+  text-align: center;
+}
+
+/*CONTACT*/
+.v__contact__container {
+  justify-content: space-between;
+}
+.v__contact__form {
+  margin-top: 20px;
+  margin-bottom: none;
+  padding-top: 40px;
+  padding-bottom: none;
+  border-top: solid #343434 1px;
+}
+.v__contact__list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/*FOOTER*/
+.v__footer {
+  margin-top: auto;
+}
+.v__footer__section {
+  padding-top: 20px;
+  padding-bottom: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top: 1px solid #343434;
+}
+.v__footer__link {
+  text-align: center;
+}
+.v__footer__p {
+  font-size: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */

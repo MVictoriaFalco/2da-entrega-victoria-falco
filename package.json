@@ -1,12 +1,12 @@
 {
   "name": "2da-entrega-victoria-falco",
   "version": "1.0.0",
+  "description": "#Primer proyecto de código HTML y CSS para el curso de desarrollo web de CoderHouse. La temática del proyecto es un portafolio web para una artista de fotografía, en este caso utilice fotos analógicas e información personal para el desarrollo del mismo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-css": "sass --watch scss/main.scss css/main.css"
   },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
