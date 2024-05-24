@@ -16,21 +16,7 @@
         &__links:hover {
             background-color: $gris;
             color: $blanco;
-            font-weight: 400;
+            font-weight: 500;
         }
     }
-
-    &__links {
-        text-decoration: none;
-        text-decoration: none;
-        color: $gris;
-    }
-    
-    &__links:hover {
-        text-decoration:underline;
-        font-weight: 500;
-        color: $gris;
-    }
-
-
 }
